@@ -1,13 +1,19 @@
+
 public class Excercise2 {
-   public static void main(String[] args) {
-String a = "Hello";
-if (a.length() % 2 == 0) {
-     System.out.println("This String is even");
- }
-else {
-    System.out.println("This String is NOT even");
-}
-   }
-}
+
+    public static void main ( String[] args ) {
 
 
+        String a = "Hello";
+
+        if ( a.length ( ) % 2 == 0 ) {
+
+            System.out.println ( "This String is even" );
+        } else {
+
+            System.out.println ( "This String is NOT even" );
+        }
+
+
+    }
+}
