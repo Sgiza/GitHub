@@ -1,19 +1,26 @@
 
+
 public class Excercise2 {
 
     public static void main ( String[] args ) {
 
 
-        String a = "Hello";
+        {
+            System.out.print ( "Enter a string : " );
+            Scanner scanner = new Scanner ( System.in );
+            String inputString = scanner.nextLine ( );
+            System.out.println ( "String read from console is : \n" + inputString );
 
-        if ( a.length ( ) % 2 == 0 ) {
 
-            System.out.println ( "This String is even" );
-        } else {
+            if ( inputString.length ( ) % 2 == 0 ) {
 
-            System.out.println ( "This String is NOT even" );
+                System.out.println ( "This String is even" );
+            } else {
+
+                System.out.println ( "This String is NOT even" );
+            }
+
+
         }
-
-
     }
 }
