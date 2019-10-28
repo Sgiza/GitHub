@@ -1,0 +1,37 @@
+
+public class Objects {
+
+
+    private String counrty_of_car;
+    private String model;
+    private String maker;
+
+
+    public void setCounrty_of_car ( String counrty ) {
+        counrty_of_car = counrty;
+    }
+
+    public void setModel ( String Model ) {
+        model = Model;
+    }
+
+    public void setMaker ( String Maker ) {
+        maker = Maker;
+    }
+
+    public String getCountry () {
+        return counrty_of_car;
+    }
+
+    public String getModel () {
+        return model;
+    }
+
+    public String getMaker () {
+        return maker;
+    }
+
+
+}
+
+
