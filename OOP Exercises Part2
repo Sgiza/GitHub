@@ -1,6 +1,5 @@
 
-public class Objects {
-
+public class Exercise1 {
 
     private String counrty_of_car;
     private String model;
@@ -11,12 +10,12 @@ public class Objects {
         counrty_of_car = counrty;
     }
 
-    public void setModel ( String Model ) {
-        model = Model;
+    public void setModel ( String s) {
+       model=s;
     }
 
-    public void setMaker ( String Maker ) {
-        maker = Maker;
+    public void setMaker ( String n ) {
+        maker=n;
     }
 
     public String getCountry () {
@@ -33,5 +32,7 @@ public class Objects {
 
 
 }
+
+
 
 
