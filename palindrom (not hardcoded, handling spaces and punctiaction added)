@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+public class Palindrom {
+
+    public static void main(String[] args) {
+
+
+
+        Scanner scanner = new Scanner ( System.in );
+        String inputString = scanner.nextLine ( );
+
+        String t = " ";
+
+        for (int i = inputString.length()-1; i >= 0; i--) {
+
+            t = t + inputString.charAt(i);
+        }
+
+        System.out.println (t);
+
+        {
+            if (inputString.equalsIgnoreCase ( t ))
+
+
+                System.out.println("This is palindrom");
+
+            else
+
+                System.out.println("This is NOT palindrom");
+        }
+    }
+}
