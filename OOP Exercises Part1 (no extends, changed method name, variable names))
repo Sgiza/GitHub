@@ -1,0 +1,29 @@
+
+public class Main {
+
+
+    public static void main ( String[] args ) {
+
+        Car bmw = new Car ( );
+        Car audi = new Car ( );
+        Car audi1 = new Car ( );
+
+        bmw.setCounrtyOfCar ( "Germany" );
+        bmw.setMaker ( "BMW corporation" );
+        bmw.setModel ( "MiniCooper" );
+
+        audi.setCounrtyOfCar ( "Germany" );
+        audi.setMaker ( "Audi Inc" );
+        audi.setModel ( "Audi A3" );
+
+        audi1.setCounrtyOfCar ( "Germany" );
+        audi1.setMaker ( "Audi Inc" );
+        audi1.setModel ( "Audi A6" );
+
+        System.out.println ( bmw.getCountry ( ).toLowerCase () + ' ' + bmw.getModel ( ).toLowerCase () + ' ' + bmw.getMaker ( ).toLowerCase () );
+        System.out.println ( audi.getCountry ( ).toLowerCase () + ' ' + audi.getModel ( ).toLowerCase () + ' ' + audi.getMaker ( ).toLowerCase () );
+        System.out.println ( audi1.getCountry ( ).toLowerCase () + ' ' + audi.getModel ( ).toLowerCase () + ' ' + audi1.getMaker ( ).toLowerCase () );
+
+
+    }
+}
