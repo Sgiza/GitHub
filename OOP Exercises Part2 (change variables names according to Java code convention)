@@ -1,13 +1,14 @@
 
+
 public class Car {
 
-    private String counrty_of_car;
+    private String counrtyOfCar;
     private String model;
     private String maker;
 
 
-    public void setCounrty_of_car ( String counrty ) {
-        counrty_of_car = counrty;
+    public void setCounrtyOfCar ( String counrty ) {
+        counrtyOfCar = counrty;
     }
 
     public void setModel ( String s ) {
@@ -19,7 +20,7 @@ public class Car {
     }
 
     public String getCountry () {
-        return counrty_of_car;
+        return counrtyOfCar;
     }
 
     public String getModel () {
@@ -30,4 +31,4 @@ public class Car {
         return maker;
     }
 
-
+}
