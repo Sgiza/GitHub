@@ -1,7 +1,5 @@
 
-import java.util.Scanner;
-
-public class Palindrom {
+ipublic class Palindrom {
 
     public static void main(String[] args) {
 
@@ -10,7 +8,7 @@ public class Palindrom {
         Scanner scanner = new Scanner ( System.in );
         String inputString = scanner.nextLine ( );
 
-        String t = " ";
+        String t ="";
 
         for (int i = inputString.length()-1; i >= 0; i--) {
 
